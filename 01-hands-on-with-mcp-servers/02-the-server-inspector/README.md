@@ -7,8 +7,6 @@
 ```bash
 uv sync
 
-uv tool install mcp[cli]
-
-uvx mcp dev src/mcp_server.py
+uv run mcp dev src/mcp_server.py
 ```
 
